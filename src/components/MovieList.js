@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import Movie from '../components/Movie';
 import ImgOne from '../images/princess_bride.JPG';
@@ -10,6 +9,7 @@ import ImgSix from '../images/tangled.JPG';
 
 const MovieList = () => {
 
+    // eslint-disable-next-line no-unused-vars
     const [movies, setMovies] = useState([
 
         {
@@ -26,7 +26,7 @@ const MovieList = () => {
             title: 'Stand byMe',
             starring: 'Wil Wheaton, River Phoenix, Corey Feldman',
             image: ImgTwo,
-            synopsis: 'A writer recounts a childhood journey with his friends to find the body of a missing boy.',
+            synopsis: 'A writer recounts a childhood journey with his friends to find the body of a missing boy. As they also learn more about one another, the boys adventure evolves into a defining event in their lives.',
             rating: 'R',
             reviews: [],
         },

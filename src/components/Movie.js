@@ -17,9 +17,9 @@ const Movie = ({ movie }) => {
             <h2>{movie.title}</h2>
             <img src={movie.image} alt={movie.title} width="300px" />
             <p>{movie.synopsis}</p>
-            <h2>Starring</h2>
+            <h4>Starring</h4>
             <p>{movie.starring}</p>
-            <h3>Rating: {movie.rating}</h3>
+            <h4>Rating: {movie.rating}</h4>
             {}
             <ReviewList reviews={reviews} onDelete={handleDeleteReview} />
             {}
